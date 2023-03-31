@@ -8,13 +8,6 @@ import ConnectMetaMaskSection from "../components/ConnectMetaMaskSection";
 import SwithChainSection from "../components/SwitchChainSection";
 import GoerliUsdcSection from "../components/GoerliUsdcSection";
 
-const styles = {
-	container: {
-  	backgroundColor: "#F5F5F5",
-  	height: "100%",
-  },
-}
-
 export default function Home() {
 	return (
 		<Container maxWidth="md">

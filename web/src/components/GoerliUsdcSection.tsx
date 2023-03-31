@@ -1,6 +1,5 @@
 import React from "react";
 import {
-	Avatar,
 	Box,
 	Button,
 	Checkbox,
@@ -9,7 +8,6 @@ import {
 	Typography
 } from "@mui/material";
 import useMetaMask from "../hooks/useMetaMask";
-import { initialState, ChecklistReducer } from "../reducers/ChecklistReducer";
 
 const styles = {
 	connectButton: {

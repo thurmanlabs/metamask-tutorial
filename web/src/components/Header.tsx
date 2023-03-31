@@ -1,4 +1,4 @@
-import React, { useReducer } from "react";
+import React from "react";
 import {
 	AppBar,
 	Avatar,
@@ -6,7 +6,6 @@ import {
 	Toolbar,
 	Typography,
 } from "@mui/material";
-import { initialState, ChecklistReducer } from "../reducers/ChecklistReducer";
 import metamaskIcon from "../images/metamask-icon.png";
 
 const styles = {
@@ -27,8 +26,6 @@ const styles = {
 }
 
 export default function Header() {
-	const [state, dispatch] = useReducer(ChecklistReducer, initialState);
-	console.log(Object.values(state));
 	return (
 		<AppBar position="sticky" elevation={0} sx={styles.appBar}>
 			<Toolbar variant="dense">
